@@ -7,7 +7,9 @@ authors = [
     { name = "Cristiano Gregory Monfrim Camandaroba", email = "cristianogregorymc@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pip>=26.2.1",
+]
 
 [project.scripts]
 pa1 = "pa1:main"
